@@ -63,18 +63,20 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         // Moleculs brand colors
-        'moleculs': {
-          purple: '#7A3FFF',
-          orange: '#FF723F',
-          cyan: '#00FFD1',
-          gray: '#F5F5F5',
-          'gray-dark': '#9C9C9C',
+        moleculs: {
+          purple: "#7A3FFF",
+          orange: "#FF723F",
+          cyan: "#00FFD1",
+          gray: "#F5F5F5",
+          "gray-dark": "#9C9C9C",
         },
       },
       backgroundImage: {
-        'gradient-brand': 'linear-gradient(90deg, #7A3FFF 0%, #FF723F 100%)',
-        'gradient-text': 'radial-gradient(143.27% 202.04% at -21.38% 39.75%, #7A3FFF 27.32%, #FF723F 51.92%, #00FFD1 96.63%)',
-        'gradient-purple': 'radial-gradient(123.88% 473.94% at 17.52% 5.9%, #7A3FFF 0%, #FF723F 51.92%, #00FFD1 96.63%)',
+        "gradient-brand": "linear-gradient(90deg, #7A3FFF 0%, #FF723F 100%)",
+        "gradient-text":
+          "radial-gradient(143.27% 202.04% at -21.38% 39.75%, #7A3FFF 27.32%, #FF723F 51.92%, #00FFD1 96.63%)",
+        "gradient-purple":
+          "radial-gradient(123.88% 473.94% at 17.52% 5.9%, #7A3FFF 0%, #FF723F 51.92%, #00FFD1 96.63%)",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -104,7 +106,7 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       blur: {
-        '213': '213.45933532714844px',
+        "213": "213.45933532714844px",
       },
     },
   },
