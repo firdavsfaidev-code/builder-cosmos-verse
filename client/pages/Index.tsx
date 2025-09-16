@@ -59,14 +59,21 @@ export default function Index() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background with gradients and blur effects */}
         <div className="absolute inset-0">
-          {/* Background image */}
-          <div className="absolute inset-0 opacity-50">
-            <div className="absolute top-0 right-0 w-[740px] h-[607px] bg-blue-500 opacity-60 rounded-full blur-[213px]"></div>
-            <div className="absolute top-[433px] right-0 w-[811px] h-[681px] bg-moleculs-orange opacity-30 rounded-full blur-[213px]"></div>
-            <div className="absolute top-0 left-0 w-[808px] h-[574px] bg-moleculs-cyan opacity-10 rounded-full blur-[213px]"></div>
+          {/* Background texture */}
+          <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white opacity-50"></div>
+
+          {/* Blur effects */}
+          <div className="absolute inset-0">
+            <div className="absolute top-20 right-32 w-[740px] h-[607px] bg-blue-500 opacity-40 rounded-full" style={{filter: 'blur(213px)'}}></div>
+            <div className="absolute top-64 -right-20 w-[811px] h-[681px] bg-moleculs-orange opacity-20 rounded-full" style={{filter: 'blur(213px)'}}></div>
+            <div className="absolute -top-32 -left-20 w-[808px] h-[574px] bg-moleculs-cyan opacity-8 rounded-full" style={{filter: 'blur(213px)'}}></div>
           </div>
+
+          {/* Overlay texture */}
+          <div className="absolute inset-0 bg-white/20 mix-blend-overlay"></div>
+
           {/* Fade overlay */}
-          <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-t from-white to-transparent"></div>
+          <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-t from-white via-white/80 to-transparent"></div>
         </div>
 
         {/* Hero Content */}
@@ -158,7 +165,7 @@ export default function Index() {
                 <div className="space-y-2 mb-6">
                   <h3 className="font-geist font-medium text-2xl text-black">Личные чат-ассистенты</h3>
                   <p className="font-manrope text-black/50">
-                    Соберите своего помощника под задачу: маркетолог, редактор, SMM, продавец, ресечер. Настройте тон, цели и правила.
+                    Соберите своего помощника под задачу: маркетолог, редактор, SMM, продавец, ре��ечер. Настройте тон, цели и правила.
                   </p>
                 </div>
                 <Button className="bg-moleculs-purple text-white font-manrope font-semibold">
@@ -212,7 +219,7 @@ export default function Index() {
                   <span className="bg-gradient-text bg-clip-text text-transparent">готовый контент</span>
                 </h2>
                 <p className="font-manrope text-xl text-black/50">
-                  Moleculs — умный агрегатор ИИ-инструментов. Создавайте текст, изображения, видео и другие форматы контента за несколько шагов.
+                  Moleculs — умный агрегатор ИИ-инструменто��. Создавайте текст, изображения, видео и другие форматы контента за несколько шагов.
                 </p>
               </div>
               <Button className="bg-black text-white font-manrope font-semibold h-16 px-8 border-2 border-moleculs-purple">
@@ -275,7 +282,7 @@ export default function Index() {
               "Нейросеть для лендингов",
               "Нейросеть для SEO-текстов",
               "Нейросеть для копирайтинга",
-              "Нейросеть для и��ей статей",
+              "Нейросеть для идей статей",
               "Нейросеть для рекламных текстов"
             ].map((tool, index) => (
               <div key={index} className="relative bg-moleculs-gray rounded-2xl p-6 group hover:bg-white hover:shadow-lg transition-all">
@@ -489,7 +496,7 @@ export default function Index() {
           <div className="flex items-center max-w-lg mx-auto h-16 bg-moleculs-gray/85 backdrop-blur-xl rounded-full border-2 border-moleculs-purple p-3">
             <input
               type="text"
-              placeholder="Создать изображение..."
+              placeholder="Создать из��бражение..."
               className="flex-1 bg-transparent px-6 font-manrope font-semibold text-lg text-black/50 placeholder:text-black/50 focus:outline-none"
             />
             <Button className="bg-black text-white font-manrope font-semibold h-12 px-6 rounded-full">
