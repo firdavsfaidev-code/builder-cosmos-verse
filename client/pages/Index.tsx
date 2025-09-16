@@ -81,7 +81,7 @@ export default function Index() {
           <div className="space-y-12">
             {/* Badge */}
             <div className="inline-flex items-center px-4 py-2 bg-gradient-brand rounded-full">
-              <span className="text-white font-manrope font-bold text-sm">#1 агрегатор нейросетей</span>
+              <span className="text-white font-manrope font-bold text-sm">#1 агрегатор нейрос��тей</span>
             </div>
 
             {/* Main heading and text */}
@@ -95,13 +95,13 @@ export default function Index() {
             </div>
 
             {/* Search CTA */}
-            <div className="flex items-center max-w-lg mx-auto h-16 bg-moleculs-gray/85 backdrop-blur-xl rounded-full border-2 border-moleculs-purple p-3">
+            <div className="flex items-center max-w-lg mx-auto h-16 bg-white/85 backdrop-blur-xl rounded-full border-2 border-moleculs-purple p-3 shadow-lg">
               <input
                 type="text"
                 placeholder="Создать изображение..."
-                className="flex-1 bg-transparent px-6 font-manrope font-semibold text-lg text-black/50 placeholder:text-black/50 focus:outline-none"
+                className="flex-1 bg-transparent px-6 font-manrope font-semibold text-lg text-black placeholder:text-black/50 focus:outline-none"
               />
-              <Button className="bg-black text-white font-manrope font-semibold h-12 px-6 rounded-full">
+              <Button className="bg-black text-white font-manrope font-semibold h-12 px-6 rounded-full hover:bg-gray-900 transition-colors">
                 Попробовать бесплатно
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
@@ -165,7 +165,7 @@ export default function Index() {
                 <div className="space-y-2 mb-6">
                   <h3 className="font-geist font-medium text-2xl text-black">Личные чат-ассистенты</h3>
                   <p className="font-manrope text-black/50">
-                    Соберите своего помощника под задачу: маркетолог, редактор, SMM, продавец, ре��ечер. Настройте тон, цели и правила.
+                    Соберите своего помощника под задачу: маркетолог, редактор, SMM, продавец, ресечер. Настройте тон, цели и правила.
                   </p>
                 </div>
                 <Button className="bg-moleculs-purple text-white font-manrope font-semibold">
@@ -219,7 +219,7 @@ export default function Index() {
                   <span className="bg-gradient-text bg-clip-text text-transparent">готовый контент</span>
                 </h2>
                 <p className="font-manrope text-xl text-black/50">
-                  Moleculs — умный агрегатор ИИ-инструменто��. Создавайте текст, изображения, видео и другие форматы контента за несколько шагов.
+                  Moleculs — умный агрегатор ИИ-инструментов. Создавайте текст, изображения, видео и другие форматы контента за несколько шагов.
                 </p>
               </div>
               <Button className="bg-black text-white font-manrope font-semibold h-16 px-8 border-2 border-moleculs-purple">
@@ -241,7 +241,7 @@ export default function Index() {
                 },
                 {
                   title: "Выберите лучший результат",
-                  description: "Сравните варианты, уточните промпт и сохраните в кабинет. Можно продолжить в другой модели без потери контекста."
+                  description: "Сравните варианты, уточните промпт и сохраните в кабинет. Можно продолжить в другой модели без по��ери контекста."
                 }
               ].map((step, index) => (
                 <div key={index} className="relative h-80 rounded-l-3xl border-l-2 border-t-2 border-b-2 border-moleculs-gray overflow-hidden bg-gradient-to-b from-transparent to-moleculs-gray/80">
@@ -271,7 +271,7 @@ export default function Index() {
               "Нейросеть для SEO-текстов",
               "Нейросеть для написания статей", 
               "Нейросеть для копирайтинга",
-              "Нейросеть для рерайта текстов",
+              "Нейросеть для рерайта т��кстов",
               "Нейросеть для уникализации текста",
               "Нейросеть для идей статей",
               "Нейросеть для заголовков", 
@@ -289,7 +289,7 @@ export default function Index() {
                 <div className="space-y-2 mb-8">
                   <h3 className="font-geist font-medium text-lg text-black">{tool}</h3>
                   <p className="font-manrope text-sm text-black/50">
-                    {index % 3 === 0 ? "Генерируйте оптимизированные тексты и повышайте позицию в поиске" :
+                    {index % 3 === 0 ? "Генерируйт�� оптимизированные тексты и повышайте позицию в поиске" :
                      index % 3 === 1 ? "Создавайте информативные статьи с чёткой структурой и логикой" :
                      "Сочиняйте продающие тексты, которые увеличивают интерес"}
                   </p>
@@ -338,7 +338,7 @@ export default function Index() {
           <div className="flex items-center gap-12 mb-16">
             {[
               { number: "300К", label: "Активные пользователи" },
-              { number: "25К", label: "Оценки 5 звезд" },
+              { number: "25К", label: "Оценки 5 зве��д" },
               { number: "2025", label: "Награда #1 агрегатор" },
               { number: "№1", label: "В категории ИИ-агрегатор" }
             ].map((stat, index) => (
@@ -363,7 +363,7 @@ export default function Index() {
                 author: "matt nappo"
               },
               {
-                text: "Платформа реально экономит время: можно быстро протестировать разные инструменты и выбрать лучший",
+                text: "Платф��рма реально экономит время: можно быстро протестировать разные инструменты и выбрать лучший",
                 author: "Jason Lemkin"
               },
               {
@@ -496,7 +496,7 @@ export default function Index() {
           <div className="flex items-center max-w-lg mx-auto h-16 bg-moleculs-gray/85 backdrop-blur-xl rounded-full border-2 border-moleculs-purple p-3">
             <input
               type="text"
-              placeholder="Создать из��бражение..."
+              placeholder="Создать изображение..."
               className="flex-1 bg-transparent px-6 font-manrope font-semibold text-lg text-black/50 placeholder:text-black/50 focus:outline-none"
             />
             <Button className="bg-black text-white font-manrope font-semibold h-12 px-6 rounded-full">
@@ -524,7 +524,7 @@ export default function Index() {
                 <span className="font-geist font-bold text-xl text-black">moleculs</span>
               </div>
               <p className="font-manrope text-sm text-black/50 max-w-xs">
-                Все нейросети для бизнеса, контента и учебы — в одном сервисе и без десятков подписок
+                Все нейросети для бизнеса, контента и учебы — в одном сервисе и б��з десятков подписок
               </p>
             </div>
 
